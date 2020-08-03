@@ -45,6 +45,7 @@ body {
 body, button, input, textarea {
 	/* rem contribui para a fluidez e responsividade, precisando apenas alterar o font-size para modificar o tamanho de tudo */
 	font: 500 1.6rem Poppins;
+	color: var(--color-text-base);
 }
 
 .container {

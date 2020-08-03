@@ -70,5 +70,10 @@
 		margin-top: 0;
 	}
 	
+	#page-teacher-list main {
+		padding: 3.2rem 0;
+		max-width: 740px;
+		margin: 0 auto;
+	}
 	
 }
