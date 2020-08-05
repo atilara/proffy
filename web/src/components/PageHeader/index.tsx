@@ -8,6 +8,8 @@ import './styles.css';
 
 interface PageHeaderProps {
 	title: string;
+	// propriedade opicional
+	description?: string;
 }
 
 // Componenente escrito em formato de função (Function Component) que recebe o PageHeader
@@ -23,6 +25,8 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
 			</div>
 			<div className="header-content">
 				<strong>{props.title}</strong>
+				{/* Só executará a próxima parte do código se houver uma descrição */}
+				{props.description && <p>{props.description}</p>}
 				{props.children}
 			</div>
 		</header>
