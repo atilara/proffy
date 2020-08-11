@@ -1,12 +1,12 @@
-<img src="./.github/Capa.png" width="40%" />
+<img src="./.github/Proffy.png" width="60%" />
 
 # 👨‍🏫 Proffy
 
-Project developed during the Next Level Week #2 offered by Rocketseat
+Project developed during the Next Level Week #2, offered by Rocketseat.
 
 ## ℹ About
 
-🚧 In construction...
+The project was built to connect teachers to students that are intestered on their services. 
 
 ## 🛠 Technologies Used
 
@@ -17,19 +17,29 @@ Project developed during the Next Level Week #2 offered by Rocketseat
 
 ## 🎯 Features
 
-🚧 In construction...
+- API RestFUL
+    - Database built using SQLite
+    - Routes to create, filter and etc.
+- Web version
+    - Register a new teacher
+    - Search teachers using filters (Subject, week day and time)
+- Mobile version
+    - Search teachers using filters (Subject, week day and time)
+    - Favorite teachers to keep them save in your device
 
-## 🌐 Web interface
+## 🌐 Web
 
-<img src="./.github/Web.png" width="50%" />
+![Gif showing the Web version](./.github/Web.gif)
 
 ## 📱 Mobile interface
 
-🚧 In construction...
+<img src="./.github/Mobile - Landing.png" width="40%" />
+<img src="./.github/Mobile - Proffys.png" width="40%" />
 
 ## How to use
 You need to have installed in your machine:
 - Nodejs and a package manager (npm | yarn) to interpret the code and install dependencies.
+- Expo, to run the mobile version
 
 ```bash
 # Accessing the server folder
@@ -48,9 +58,15 @@ $ yarn install
 # To run the web page
 $ yarn start
 
+# Accessing the mobile folder
+$ cd mobile
+# Installing dependencies
+$ yarn install
+# Running the app
+$ yarn start
+
 ```
 
 ## 📄 License
 
-🚧 In construction...
-
+This project is being hosted under the MIT License.
