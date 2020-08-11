@@ -59,6 +59,9 @@ const TeacherItem: React.FunctionComponent<TeacherItemProps> = ({
 	}
 
 	function handleLinkToWhatsapp() {
+		api.post('connections', {
+			user_id: teacher.id,
+		});
 		Linking.openURL(`whatsapp://send?phone=${teacher.whatsapp}`);
 	}
 	return (
