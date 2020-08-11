@@ -33,8 +33,8 @@ The project was built to connect teachers to students that are intestered on the
 
 ## 📱 Mobile interface
 
-<img src="./.github/Mobile - Landing.png" width="40%" />
-<img src="./.github/Mobile - Proffys.png" width="40%" />
+<img src="./.github/Mobile - Landing.png" width="30%" />
+<img src="./.github/Mobile - Proffys.png" width="30%" />
 
 ## How to use
 You need to have installed in your machine:
